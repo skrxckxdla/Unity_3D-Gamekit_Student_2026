@@ -39,7 +39,7 @@ public class SurvivalMod : MonoBehaviour
         if (thirstLevel <= 0 && thirsty)
         {
             timer -= Time.deltaTime;
-            if 
+           // if 
             
             Damageable.DamageMessage msg = new Damageable.DamageMessage()
             {
